@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <!-- content here -->
+    <main>
+      <h1>PokéDex</h1>
+      <section class="pokemon-entry">
+        <header>
+          <h2 id="poke-name"></h2>
+          <p id="id-num"></p>
+          <img id="front-image" src="" alt="front image">
+          <img id="back-image" src="" alt="back image">
+          <div class="types">
+            <span><strong>Type</strong>: </span><span id="type-one"></span>
+            <span><strong>Type</strong>: </span><span id="type-two"></span>
+          </div>
+          <div class="stats">
+            <span><strong>Weight</strong>: </span><span id="poke-height"></span>
+            <span><strong>Height</strong>: </span><span id="poke-weight"></span>
+          </div>
+
+        </header>
+      </section>
+      <button onclick="getPokemon()">Get a Pokémon</button>
+    </main>
+
+    <!-- content ends -->
+    <!-- script loading -->
+    <script src="assets/main.js" charset="utf-8"></script>
+  </body>
+</html>
